@@ -1,0 +1,1201 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url('../images/bg.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.wrapper {
+	margin-top: 10px;
+	background: #1d1d1b;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.profile, .game, .view-decks, .upload-decks {
+	margin-top: 10px;
+	background: #1d1d1b;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: .8;
+}
+/*--Header--*/
+.header {
+	background: black;
+	opacity: .7;
+	text-align: right;
+	padding: 12px 10px 12px 10px;
+	font-size: 17px;
+	color: gray;
+}
+
+.header .seperater {
+	color: yellow;
+	padding: 0 5px 0 5px;
+}
+
+.header a {
+	color: white;
+}
+
+.header a:hover {
+	color: yellow;
+}
+
+.body .inner-body {
+	min-height: 350px;
+}
+/*--//Header--*/
+
+/*-- Navbar --*/
+.navbar-default {
+	background: rgb(37, 34, 34);
+	margin: 0 auto;
+	border: none;
+	margin-top: 10px;
+	border-radius: 10px;
+	opacity: .7;
+}
+
+.navbar-default .navbar-brand {
+	margin-top: -15px;
+}
+
+.navbar-default .navbar-brand img {
+	width: 120px;
+}
+
+.navbar-default .navbar-nav {
+	
+}
+
+.navbar-default .navbar-nav li {
+	padding: 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav li:hover {
+	background: #1d1d1b;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: white;
+}
+
+.navbar-default .navbar-right li a .fa-user {
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-toggle:active,
+	.navbar-default .navbar-nav .dropdown .dropdown-toggle:focus,
+	.navbar-default .navbar-nav .dropdown .dropdown-toggle.open {
+	background: #1d1d1b;
+	color: white;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu {
+	background: white;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu li {
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu li:hover {
+	background: rgb(236, 232, 232);
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu li a {
+	color: black;
+	border: none;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu li a:hover {
+	color: black;
+	background: none;
+}
+
+/*-- //Navbar --*/
+
+/*--Breadcrumb--*/
+.breadcrumb-body {
+	
+}
+
+.breadcrumb-arrow {
+	height: 36px;
+	padding: 0;
+	line-height: 36px;
+	list-style: none;
+	background-color: #e6e9ed
+}
+
+.breadcrumb-arrow li:first-child a {
+	border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px
+}
+
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span
+	{
+	display: inline-block;
+	vertical-align: top
+}
+
+.breadcrumb-arrow
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+:first-child
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+{
+margin-left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-5
+px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.breadcrumb-arrow li+li:before {
+	padding: 0;
+	content: ""
+}
+
+.breadcrumb-arrow li span {
+	padding: 0 10px
+}
+
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not (:first-child ) span {
+	height: 36px;
+	padding: 0 10px 0 25px;
+	line-height: 36px
+}
+
+.breadcrumb-arrow li:first-child a {
+	padding: 0 10px
+}
+
+.breadcrumb-arrow li a {
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	background-color: #0d0d0e;
+	border: 1px solid #3bafda
+}
+
+.breadcrumb-arrow li:first-child a {
+	padding-left: 10px
+}
+
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+	position: absolute;
+	top: -1px;
+	width: 0;
+	height: 0;
+	content: '';
+	border-top: 18px solid transparent;
+	border-bottom: 18px solid transparent
+}
+
+.breadcrumb-arrow li a:before {
+	right: -10px;
+	z-index: 3;
+	border-left-color: #3bafda;
+	border-left-style: solid;
+	border-left-width: 11px
+}
+
+.breadcrumb-arrow li a:after {
+	right: -11px;
+	z-index: 2;
+	border-left: 11px solid #2494be
+}
+
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+	background-color: #4fc1e9;
+	border: 1px solid #4fc1e9;
+	color: black;
+}
+
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before
+	{
+	border-left-color: #4fc1e9
+}
+
+.breadcrumb-arrow li a:active {
+	background-color: #2494be;
+	border: 1px solid #2494be
+}
+
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before
+	{
+	border-left-color: #2494be
+}
+
+.breadcrumb-arrow li span {
+	color: #434a54
+}
+/*--//Breadcrumb--*/
+.play-now-image {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.play-now-image a img {
+	width: 100%;
+}
+
+/*--Login--*/
+.body .login-button {
+	padding: 20%;
+	text-align: center;
+}
+
+.body .login-button a {
+	background: linear-gradient(to top, #cc99ff 0%, #003300 58%);
+	color: white;
+	box-shadow: 0 0 10px rgb(231, 206, 66);
+	border-radius: 20px;
+	padding: 18px;
+	font-size: 20px;
+}
+
+.body .login-button a:hover {
+	background: linear-gradient(to bottom, #cc99ff 0%, #003300 58%);
+	border-radius: 30px;
+	transition: .5s all;
+}
+
+.login-form {
+	padding: 10px;
+}
+
+.login-form h3 {
+	text-align: center;
+	color: blue;
+}
+
+.login-form #login-error, .login-form #register-error {
+	color: red;
+}
+
+.login-form form .btn-primary {
+	background: linear-gradient(to top, #cc99ff 0%, #003300 58%);
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+
+.login-form .btn-primary:hover {
+	color: rgb(248, 246, 246);
+	background: linear-gradient(to top right, #cc99ff 0%, #003300 58%);
+	border-color: rgb(218, 98, 98);
+}
+
+/*--Modal--*/
+.modal .modal-header img {
+	width: 30%;
+}
+
+.form-group label {
+	color: black;
+	font-size: 16px;
+}
+
+.form-control {
+	color: black;
+	border-radius: none;
+}
+
+.login-form form .forgot-password {
+	text-align: right;
+}
+
+.login-form form .forgot-password a {
+	color: black;
+	text-decoration: none;
+}
+
+.login-form form .forgot-password a:hover {
+	color: red;
+}
+/*--//Login--*/
+.body .body-left {
+	max-height: 850px;
+	overflow-y: scroll;
+	background: rgb(255, 254, 254);
+}
+
+.body .body-left .list-group {
+	list-style-type: none;
+	min-height: 820px;
+	overflow: hidden;
+}
+
+.body .body-left .list-group .active {
+	background: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+.body .body-left .list-group .fa-circle {
+	color: green;
+}
+
+.body .body-left .list-group button {
+	float: right;
+	margin-top: -6px;
+}
+
+/*-- Profile--*/
+.profile .profile-details .profile-left, .profile .profile-details .profile-right
+	{
+	background: #333;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.profile .profile-details .profile-left .user {
+	color: white;
+	text-transform: uppercase;
+}
+
+.profile .profile-details .profile-left p {
+	color: white;
+}
+
+.profile .profile-details .profile-left .fa-circle {
+	color: green;
+}
+
+.profile .profile-details .profile-right {
+	color: white;
+}
+
+.profile .profile-details .profile-right .title {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.profile .profile-details hr {
+	border: 1px solid rgb(61, 59, 59);
+}
+
+.profile .profile-details .edit-link {
+	text-align: center;
+	padding: 5px;
+	background: #333;
+	margin-top: 5px;
+}
+
+.profile .profile-details .edit-link a {
+	color: #4fc1e9;
+	font-size: 18px;
+}
+/*-- //Profile--*/
+
+/*--Footer--*/
+footer {
+	margin-top: 0px;
+	padding: 5px;
+	background: #0d0d0e;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
+
+footer span {
+	color: red;
+}
+/*--//Footer--*/
+
+/*--Request-Response--*/
+.request-response {
+	text-align: center;
+	padding: 20px;
+}
+
+.request-response .accept {
+	background: green;
+	color: black;
+	font-size: 17px;
+	padding: 10px 20px 10px 20px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+.request-response .refuse {
+	background: red;
+	color: black;
+	font-size: 17px;
+	padding: 10px 20px 10px 20px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+/*--//Request-Response--*/
+.modal-body .vs {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 80px;
+	font-size: 40px;
+	color: red;
+}
+
+.modal-body .user2 {
+	padding-top: 100px;
+}
+
+.modal-body .user1 img, .modal-body .user2 img {
+	width: 100%;
+	border: 2px solid black;
+}
+
+.modal-body .user1 p, .modal-body .user2 p {
+	text-align: center;
+	padding-top: 11px;
+	color: blue;
+}
+
+.modal-body .game-start-button {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.modal-body .game-start-button a {
+	color: black;
+	font-size: 20px;
+	background: linear-gradient(to top right, #ff66cc 0%, #0066ff 67%);
+	color: white;
+	padding: 10px 20px 10px 20px;
+	box-shadow: 1px 1px 10px yellow;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+}
+
+.modal-body .game-start-button a:hover {
+	background: linear-gradient(to top, #ff66cc 0%, #0066ff 67%);
+}
+
+.upload-decks form .form-group label {
+	color: white;
+}
+
+.upload-decks form .submit-button {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.upload-decks form .submit-button .btn-primary {
+	background: linear-gradient(to top, #cc99ff 0%, #003300 58%);
+	color: white;
+}
+
+.upload-decks form .submit-button .btn-primary:hover {
+	background: linear-gradient(to top, #cc99ff 0%, #003300 68%);
+	color: white;
+}
+/*--View-decks--*/
+.view-decks table {
+	text-align: center;
+}
+
+.view-decks table tr td {
+	
+}
+
+.view-decks table thead tr th {
+	color: white;
+	text-align: center;
+}
+/*--//view-decks--*/
+
+/*-- Game--*/
+.game {
+	min-height: 425px;
+	background: radial-gradient(yellow, rgb(34, 15, 15));
+	opacity: 1;
+}
+
+.game .game-header {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.game .game-body {
+	min-height: 400px;
+	width: 750px;
+	margin: 0 auto;
+	background: radial-gradient(yellow, rgb(74, 76, 189));
+	border: 5px solid rgb(224, 224, 235);
+	border-radius: 10px;
+}
+
+.game .game-body .hand-board {
+	background: rgb(89, 90, 153);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 1px 1px 5px 5px rgb(224, 224, 235);
+	margin: 0 auto;
+	width: 500px;
+	height: 110px;
+}
+
+.game .game-body .hand-board div {
+	float: left;
+	width: 60px;
+	height: 90px;
+	text-align: center;
+	background-size: 100% 100%;
+	margin-left: 5px;
+}
+
+.game .game-body .hand-board div p {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+.game .game-body .hand-board div i {
+	font-size: 17px;
+	color: black;
+}
+
+.game .game-body .hand-board div .draw-button {
+	font-size: 19px;
+	color: white;
+	background: blue;
+	padding: 5px;
+	opacity: .7;
+}
+
+.game .game-body .hand-board img {
+	width: 60px;
+	height: 90px;
+	padding-left: 2px;
+}
+
+.game .game-body .disk-image {
+	text-align: center;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 45px auto;
+	width: 200px;
+}
+/* Firefox old*/
+@
+-moz-keyframes blink { 0% {
+	opacity: 1;
+}
+
+50%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+0;
+}
+100%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+1;
+}
+}
+@
+-webkit-keyframes blink { 0% {
+	opacity: 1;
+}
+
+50%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+0;
+}
+100%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+1;
+}
+}
+/* IE */
+@
+-ms-keyframes blink { 0% {
+	opacity: 1;
+}
+
+50%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+0;
+}
+100%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+1;
+}
+}
+/* Opera and prob css3 final iteration */
+@
+keyframes blink { 0% {
+	opacity: 1;
+}
+
+50%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+0;
+}
+100%
+{
+opacity
+
+
+
+
+:
+
+
+
+
+1;
+}
+}
+.game .game-body .disk-image .player1 {
+	padding-top: 40px;
+}
+
+.game .game-body .power {
+	border: 1px solid black;
+	width: 250px;
+	height: 22px;
+	border-radius: 5px;
+}
+
+.player2-power {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: -30px;
+}
+
+.player1-power {
+	margin-right: 20px;
+	margin-top: -35px;
+	margin-bottom: 60px;
+	float: right;
+}
+
+.progress-bar {
+	background: red;
+}
+
+.game .game-body .disk-image .turn {
+	-moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+	-webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+	-ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+	animation: blink normal 2s infinite ease-in-out;
+	/* Opera and prob css3 final iteration */
+}
+
+.game .game-body .disk-image img {
+	width: 90px;
+	height: 110px;
+	margin-top: -10px;
+}
+.game .game-body .retire-button{
+	float:right;
+	margin-top:40px;
+	margin-right:30px;
+}
+.game .game-body .retire-button a{
+	background:red;
+	color:white;
+	padding:10px;
+	font-size:17px;
+	border-radius:10px;
+}
+/*-- //Game--*/
+.carousel {
+	margin-top: 5px;
+}
+
+.carousel .carousel-inner {
+	padding-left: 80px;
+	padding-right: 120px;
+}
+
+.carousel-control {
+	margin-left: -60px;
+	margin-right: -60px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+
+.carousel .carousel-inner .item img {
+	width: 75.3px;
+	float: left;
+	height: 100px;
+	padding-left: 5px;
+}

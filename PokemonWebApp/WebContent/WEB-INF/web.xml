@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <listener> <listener-class> com.pokemon.app.listener.PokemonServletContextListener 
+		</listener-class> </listener>
+  <display-name>PokemonWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.LoginPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPC</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.RegisterPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterPC</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.pokemon.app.controller.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>ListPlayersPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.ListPlayersPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListPlayersPC</servlet-name>
+    <url-pattern>/ListPlayers</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ListChallengesPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.ListChallengesPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListChallengesPC</servlet-name>
+    <url-pattern>/ListChallenges</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddChallenge</servlet-name>
+    <servlet-class>com.pokemon.app.controller.AddChallenge</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddChallenge</servlet-name>
+    <url-pattern>/AddChallenge</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>RequestResponsePC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.RequestResponsePC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestResponsePC</servlet-name>
+    <url-pattern>/RequestResponse</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AcceptChallengePC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.AcceptChallengePC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AcceptChallengePC</servlet-name>
+    <url-pattern>/AcceptChallenge</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>RefuseChallengePC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.RefuseChallengePC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RefuseChallengePC</servlet-name>
+    <url-pattern>/RefuseChallenge</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>UploadDeckPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.UploadDeckPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadDeckPC</servlet-name>
+    <url-pattern>/UploadDeck</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>GetDeckPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.GetDeckPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetDeckPC</servlet-name>
+    <url-pattern>/GetDeck</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AddCardToHandPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.AddCardToHandPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCardToHandPC</servlet-name>
+    <url-pattern>/AddCardToHand</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>GetHandPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.GetHandPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetHandPC</servlet-name>
+    <url-pattern>/GetHand</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>UpdateDeckAndHandPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.UpdateDeckAndHandPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateDeckAndHandPC</servlet-name>
+    <url-pattern>/UpdateDeckAndHand</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>DrawCardFromHandPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.DrawCardFromHandPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DrawCardFromHandPC</servlet-name>
+    <url-pattern>/DrawCardFromHand</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddBoardPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.AddBoardPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddBoardPC</servlet-name>
+    <url-pattern>/AddBoard</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>GetBoardPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.GetBoardPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBoardPC</servlet-name>
+    <url-pattern>/GetBoard</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>GetGameIdPC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.GetGameIdPC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetGameIdPC</servlet-name>
+    <url-pattern>/GetGameId</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>RetireGamePC</servlet-name>
+    <servlet-class>com.pokemon.app.controller.RetireGamePC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RetireGamePC</servlet-name>
+    <url-pattern>/RetireGame</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
